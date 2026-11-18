@@ -1,195 +1,101 @@
 
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Bella Hair | Produtos para Cabelos</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #fff8f5;
-            color: #49332f;
-        }
-
-        header {
-            background-color: #e8c5bb;
-            padding: 25px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 32px;
-        }
-
-        nav {
-            background-color: #8f5e58;
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        .banner {
-            text-align: center;
-            padding: 60px 20px;
-            background-color: #f5e2db;
-        }
-
-        .banner h2 {
-            font-size: 36px;
-            margin-bottom: 15px;
-        }
-
-        .banner p {
-            font-size: 18px;
-            margin-bottom: 25px;
-        }
-
-        .botao {
-            display: inline-block;
-            background-color: #8f5e58;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-        }
-
-        .produtos {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .lista-produtos {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 25px;
-            margin-top: 30px;
-        }
-
-        .produto {
-            background-color: white;
-            padding: 25px;
-            border-radius: 12px;
-            width: 250px;
-            box-shadow: 0 3px 10px #00000012;
-        }
-
-        .produto .icone {
-            font-size: 55px;
-            margin-bottom: 15px;
-        }
-
-        .produto h3 {
-            margin-bottom: 10px;
-        }
-
-        .produto p {
-            margin-bottom: 15px;
-            color: #755d57;
-        }
-
-        .preco {
-            color: #8f5e58;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        footer {
-            background-color: #8f5e58;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            margin-top: 30px;
-        }
-
-        @media (max-width: 600px) {
-            .banner h2 {
-                font-size: 28px;
-            }
-
-            nav a {
-                margin: 0 7px;
-                font-size: 14px;
-            }
-
-            .produto {
-                width: 100%;
-                max-width: 320px;
-            }
-        }
-    </style>
+    <title>Perfume Blog</title>
 </head>
 
 <body>
 
     <header>
-        <h1>🌸 Bella Hair</h1>
-        <p>Beleza, cuidado e brilho para seus cabelos</p>
+        <h1>🌸 Perfume Blog</h1>
+        <p>Um mundo de aromas e fragrâncias!</p>
+
+        <nav>
+            <a href="#inicio">Início</a> |
+            <a href="#tipos">Tipos de perfumes</a> |
+            <a href="#curiosidades">Curiosidades</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#produtos">Produtos</a>
-        <a href="#contato">Contato</a>
-    </nav>
+    <hr>
 
-    <section class="banner" id="inicio">
-        <h2>Seu cabelo merece esse cuidado!</h2>
-        <p>Encontre os produtos ideais para cuidar dos seus fios.</p>
-        <a href="#produtos" class="botao">
-            Ver produtos
-        </a>
-    </section>
+    <main>
 
-    <section class="produtos" id="produtos">
-        <h2>Nossos produtos</h2>
-        <p>Confira alguns dos nossos favoritos.</p>
+        <section id="inicio">
+            <h2>Bem-vindo ao Perfume Blog!</h2>
 
-        <div class="lista-produtos">
+            <p>
+                Os perfumes fazem parte do nosso dia a dia.
+                Eles possuem diferentes aromas, combinações
+                e estilos. Aqui você vai conhecer um pouco
+                mais sobre esse universo perfumado!
+            </p>
 
-            <div class="produto">
-                <div class="icone">🧴</div>
-                <h3>Shampoo</h3>
-                <p>Para uma limpeza suave dos cabelos.</p>
-                <div class="preco">R$ 29,90</div>
-            </div>
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=500"
+                 alt="Frasco de perfume" width="250">
+        </section>
 
-            <div class="produto">
-                <div class="icone">🫧</div>
-                <h3>Condicionador</h3>
-                <p>Para fios macios e fáceis de pentear.</p>
-                <div class="preco">R$ 34,90</div>
-            </div>
+        <hr>
 
-            <div class="produto">
-                <div class="icone">✨</div>
-                <h3>Máscara Capilar</h3>
-                <p>Um cuidado extra na sua rotina capilar.</p>
-                <div class="preco">R$ 39,90</div>
-            </div>
+        <section id="tipos">
+            <h2>Tipos de perfumes</h2>
 
-        </div>
-    </section>
+            <h3>1. Perfumes florais 🌷</h3>
+            <p>
+                Possuem aromas inspirados em flores,
+                como rosas, jasmim e lavanda.
+            </p>
 
-    <footer id="contato">
-        <h3>Entre em contato</h3>
-        <p>Email: contato@bellahair.com</p>
-        <p>© 2026 Bella Hair - Todos os direitos reservados.</p>
+            <h3>2. Perfumes doces 🍓</h3>
+            <p>
+                São perfumes com notas de baunilha,
+                caramelo e frutas.
+            </p>
+
+            <h3>3. Perfumes cítricos 🍋</h3>
+            <p>
+                Possuem aromas refrescantes,
+                como limão, laranja e bergamota.
+            </p>
+
+            <h3>4. Perfumes amadeirados 🌳</h3>
+            <p>
+                Apresentam aromas inspirados em madeiras,
+                como cedro e sândalo.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="curiosidades">
+            <h2>Curiosidades sobre perfumes</h2>
+
+            <ul>
+                <li>Os perfumes podem ter diferentes famílias olfativas.</li>
+                <li>Alguns perfumes são mais suaves que outros.</li>
+                <li>As fragrâncias podem misturar várias notas.</li>
+                <li>Os perfumes são usados há milhares de anos.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Você gosta de perfumes?</h2>
+            <p>
+                Explore diferentes fragrâncias e descubra
+                quais aromas mais combinam com você!
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>© 2026 - Perfume Blog | Feito por mim 💗</p>
     </footer>
 
 </body>
